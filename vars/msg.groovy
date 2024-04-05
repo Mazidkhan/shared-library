@@ -6,7 +6,7 @@ def caller() {
     if (configStream != null) {
         configProperties.load(configStream)
         def channel=configProperties.getProperty('SLACK_CHANNEL_NAME')
-        println("$channel")
+        println("hello $channel")
     } else {
         return "Hello from shared library! (config.properties not found)"
     }
