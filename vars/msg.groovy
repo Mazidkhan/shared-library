@@ -8,6 +8,6 @@ def caller() {
         def channel=configProperties.getProperty('SLACK_CHANNEL_NAME')
         println("hello $channel")
     } else {
-        return "Hello from shared library! (config.properties not found)"
+        println("Hello from shared library! (config.properties not found)")
     }
 }
