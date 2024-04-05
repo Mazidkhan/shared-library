@@ -1,5 +1,5 @@
 import java.util.Properties
-def call() {
+def caller() {
     def configProperties = new Properties()
     def classLoader = this.class.classLoader
     def configStream = classLoader.getResourceAsStream("config.properties")
