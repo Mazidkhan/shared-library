@@ -1,3 +1,3 @@
 def call () {
-    slackSend channel: 'build-status', color: 'red', teamDomain: 'bhavneshpvt', tokenCredentialId: 'slack'
+    slackSend channel: 'jenkins', color: 'good', message: 'Job run failed', teamDomain: 'practice-k979999', username: 'rahil khan'
 }
